@@ -61,5 +61,22 @@ nav{
 
 .list-container{
 
-    margin: 2rem 2rem;
+    margin: 2rem 3rem;
+}
+
+.list-label{
+    display: inline-block;
+    background-color: var(--btn-1);
+    color: white;
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.list-cotent{
+    margin-bottom: 1rem;
+}
+
+.list-row{
+    margin-bottom: 1rem;
 }
