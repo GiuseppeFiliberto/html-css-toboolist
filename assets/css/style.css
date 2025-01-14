@@ -28,12 +28,18 @@ header{
 
 .header-content{
     margin-left: 1rem;
+    padding: 1rem;
 }
 
 
 .title_page{
     display: inline-block;
+    vertical-align: middle;
     /* padding-bottom: 1rem; */
+}
+
+.logo{
+    vertical-align: middle;
 }
 
 .container{
@@ -56,7 +62,8 @@ nav{
     border-radius: 4px;
     background-color: var(--btn-1);
     color: white;
-    padding: 6px
+    padding: 6px;
+    cursor: pointer;
 }
 
 .list-container{
