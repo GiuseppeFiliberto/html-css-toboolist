@@ -18,3 +18,19 @@ body{
     --btn-5: #f176b4;
     --btn-6: #a3d116;
 }
+
+/* utilites */
+
+header{
+    background-color: #fff;
+}
+
+.header-content{
+    margin-left: 1rem;
+}
+
+
+.title_page{
+    display: inline-block;
+    padding-bottom: 1rem;
+}
