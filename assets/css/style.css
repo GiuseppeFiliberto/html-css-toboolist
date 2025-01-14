@@ -33,7 +33,7 @@ header{
 
 .title_page{
     display: inline-block;
-    padding-bottom: 1rem;
+    /* padding-bottom: 1rem; */
 }
 
 .container{
@@ -62,6 +62,21 @@ nav{
 .list-container{
 
     padding: 3rem;
+}
+
+li{
+    list-style: none;
+}
+
+.checkmark{
+    background-color: black;
+    display: inline-block;
+    color: #a3d116;
+    border-radius: 30px;
+    border-style: 1px, solid, red;
+    width: 25px;
+    height: 20px;
+    text-align: center;
 }
 
 .list-label-blue{
@@ -118,9 +133,6 @@ nav{
     font-size: 12px;
 }
 
-.list-cotent{
-    margin-bottom: rem;
-}
 
 .list-row{
     margin-bottom: 1rem;
