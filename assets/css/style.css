@@ -79,9 +79,9 @@ li{
 .checkmark{
     /* background-color: black; */
     display: inline-block;
-    color: #9de4d8;
+    color: #78e78e;
     border-radius: 30px;
-    border: 1px, solid, #9de4d8;
+    border: 1px, solid, #78e78e;
     width: 20px;
     height: 20px;
     text-align: center;
