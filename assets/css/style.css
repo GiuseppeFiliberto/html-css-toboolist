@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-family: "Roboto", serif;
 }
 
@@ -44,7 +44,7 @@ header{
 }
 
 nav{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgray;
 }
 
 .btn-box{
@@ -66,15 +66,26 @@ nav{
 
 li{
     list-style: none;
+    margin-right: 2rem;
 }
 
 .checkmark{
-    background-color: black;
+    /* background-color: black; */
     display: inline-block;
-    color: #a3d116;
+    color: #9de4d8;
     border-radius: 30px;
-    border-style: 1px, solid, red;
-    width: 25px;
+    border: 1px, solid, #9de4d8;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.cross{
+    display: inline-block;
+    color: red;
+    border-radius: 30px;
+    border: 1px, solid, red;
+    width: 20px;
     height: 20px;
     text-align: center;
 }
@@ -133,7 +144,12 @@ li{
     font-size: 12px;
 }
 
+.list-title{
+    margin-bottom: 10px
+}
 
 .list-row{
     margin-bottom: 1rem;
+    margin-right: 1rem;
 }
+
