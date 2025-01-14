@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+body{
+    background-color: #cfd3d4;
+}
+
+:root{
+
+    --btn-1: #14aaf5;
+    --btn-2: #ab5de6;
+    --btn-3: #2cc6ab;
+    --btn-4: #ff9b00;
+    --btn-5: #f176b4;
+    --btn-6: #a3d116;
+}
