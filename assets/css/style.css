@@ -34,3 +34,32 @@ header{
     display: inline-block;
     padding-bottom: 1rem;
 }
+
+.container{
+    background-color: #fff;
+    /* padding: 1rem; */
+    width: 80%;
+    margin: 3rem auto;
+    border-radius: 4px;
+}
+
+nav{
+    border-bottom: 1px solid black;
+}
+
+.btn-box{
+    margin: 1rem 2rem;
+    display: inline-block;
+}
+.btn-style{
+    border: none;
+    border-radius: 4px;
+    background-color: var(--btn-1);
+    color: white;
+    padding: 6px
+}
+
+.list-container{
+
+    margin: 2rem 2rem;
+}
